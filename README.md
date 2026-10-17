@@ -26,7 +26,7 @@ style.css                        styles; every color is a variable at the top
 script.js                        mobile menu, typing effect, count-up, contact form
 assets/photo.jpg                 profile photo (hero)
 assets/Mirudhula_M_Resume.pdf    file for the "Download resume" button
-assets/ironfit-preview.jpg       preview image of the IRONFIT Figma design
+assets/projects/*.jpg            screenshots shown on the project cards (job-tracker, shop-ease, restaurant, portfolio, ironfit)
 ```
 
 ## Run it locally

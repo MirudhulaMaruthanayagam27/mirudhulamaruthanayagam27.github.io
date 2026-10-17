@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=6">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -170,21 +170,11 @@
         <h2 id="projects-title" class="section-title">Selected work</h2>
 
         <article class="featured">
-          <div class="featured__visual" aria-hidden="true">
-            <div class="mock">
-              <div class="mock__bar"><span></span><span></span><span></span></div>
-              <div class="mock__body">
-                <div class="mock__stats">
-                  <div><b>8</b><i>Applications</i></div>
-                  <div><b>2</b><i>Interviews</i></div>
-                  <div class="mock__rate"><b>43%</b><i>Interview rate</i></div>
-                </div>
-                <div class="mock__pipe"><span style="flex:1;background:#94a3b8"></span><span style="flex:3;background:#0ea5e9"></span><span style="flex:2;background:#f59e0b"></span><span style="flex:1;background:#22c55e"></span><span style="flex:1;background:#f43f5e"></span></div>
-                <div class="mock__row"><i>Nimbus Labs</i><i class="pill pill--int">Interview</i></div>
-                <div class="mock__row"><i>Kovai Digital</i><i class="pill pill--offer">Offer</i></div>
-                <div class="mock__row"><i>Brightpath</i><i class="pill pill--app">Applied</i></div>
-              </div>
-            </div>
+          <div class="featured__visual">
+            <a class="shot" href="https://mirudhulamaruthanayagam27.github.io/job-tracker/" target="_blank" rel="noopener" tabindex="-1">
+              <div class="shot__bar" aria-hidden="true"><span></span><span></span><span></span><em>github.io/job-tracker</em></div>
+              <div class="shot__img"><img src="assets/projects/job-tracker.jpg" alt="Job Application Tracker dashboard" width="1280" height="720" loading="lazy"></div>
+            </a>
           </div>
           <div class="featured__text">
             <p class="featured__label">Featured project</p>
@@ -210,35 +200,54 @@
           To publish one: put the URL in href and delete "is-pending" from its class.
         -->
         <div class="projects">
-          <article class="project">
-            <div class="project__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6.2M10 21h.01M17 21h.01"/></svg></div>
-            <h3>ShopEase: E-Commerce Store</h3>
-            <p>An Angular online store: search, filter and sort products, add them to a cart that remembers its items, and check out through a validated delivery form with free-delivery rules.</p>
-            <ul class="tags"><li>Angular 21</li><li>TypeScript</li><li>Signals</li><li>Reactive Forms</li></ul>
-            <!-- Live demo:   https://mirudhulamaruthanayagam27.github.io/shop-ease/
-                 Source code: https://github.com/MirudhulaMaruthanayagam27/shop-ease -->
-            <div class="project__links"><a class="link-btn is-pending" href="#" target="_blank" rel="noopener" data-pending="Live demo link coming soon">Live demo <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a class="link-btn link-btn--ghost is-pending" href="#" target="_blank" rel="noopener" data-pending="Source code link coming soon">Source code <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg></a></div>
+          <article class="pcard">
+            <div class="shot">
+              <div class="shot__bar" aria-hidden="true"><span></span><span></span><span></span><em>github.io/shop-ease</em></div>
+              <div class="shot__img"><img src="assets/projects/shop-ease.jpg" alt="ShopEase store home page" width="1280" height="720" loading="lazy"></div>
+            </div>
+            <div class="pcard__body">
+              <p class="pcard__kind">Angular · Web app</p>
+              <h3>ShopEase: E-Commerce Store</h3>
+              <p>An Angular online store: search, filter and sort products, add them to a cart that remembers its items, and check out through a validated delivery form with free-delivery rules.</p>
+              <ul class="tags"><li>Angular 21</li><li>TypeScript</li><li>Signals</li><li>Reactive Forms</li></ul>
+              <!-- Live demo:   https://mirudhulamaruthanayagam27.github.io/shop-ease/
+                   Source code: https://github.com/MirudhulaMaruthanayagam27/shop-ease -->
+              <div class="project__links"><a class="link-btn is-pending" href="#" target="_blank" rel="noopener" data-pending="Live demo link coming soon">Live demo <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a class="link-btn link-btn--ghost is-pending" href="#" target="_blank" rel="noopener" data-pending="Source code link coming soon">Source code <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg></a></div>
+            </div>
           </article>
-          <article class="project">
-            <div class="project__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3v8a3 3 0 0 0 3 3v7M7 3v5M10 3v8a3 3 0 0 1-3 3M17 21V3c-2 1-3 4-3 7s1 4 3 4"/></svg></div>
-            <h3>Restaurant Landing Page</h3>
-            <p>Responsive landing page with menu, customer reviews and table booking sections, and easy navigation on mobile, tablet and desktop.</p>
-            <ul class="tags"><li>HTML</li><li>CSS</li><li>Responsive</li></ul>
-            <div class="project__links"><a class="link-btn" href="https://mirudhulamaruthanayagam27.github.io/Restaurant-Landing-PageN/" target="_blank" rel="noopener">Live demo <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a class="link-btn link-btn--ghost" href="https://github.com/MirudhulaMaruthanayagam27/Restaurant-Landing-PageN" target="_blank" rel="noopener">Source code <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg></a></div>
-          </article>
-          <article class="project">
-            <div class="project__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM4 21a8 8 0 0 1 16 0"/></svg></div>
-            <h3>Personal Portfolio Website</h3>
-            <p>This site: a clean, well-structured portfolio that presents my profile, skills and projects with a clear visual hierarchy.</p>
-            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
-            <div class="project__links"><a class="link-btn" href="https://mirudhulamaruthanayagam27.github.io/" target="_blank" rel="noopener">Live demo <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a class="link-btn link-btn--ghost" href="https://github.com/MirudhulaMaruthanayagam27/mirudhulamaruthanayagam27.github.io" target="_blank" rel="noopener">Source code <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg></a></div>
-          </article>
-          <article class="project project--wide">
-            <a class="project__shot" href="https://www.figma.com/proto/iJ0lShyvu5bxvKwN6Uwsei/IRONFIT_Landing?node-id=3-9&amp;starting-point-node-id=3%3A9&amp;t=BkJesyUYmIx0oIk6-1" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
-              <img src="assets/ironfit-preview.jpg" alt="" width="1200" height="675" loading="lazy">
+          <article class="pcard">
+            <a class="shot" href="https://mirudhulamaruthanayagam27.github.io/Restaurant-Landing-PageN/" target="_blank" rel="noopener" tabindex="-1">
+              <div class="shot__bar" aria-hidden="true"><span></span><span></span><span></span><em>github.io/Restaurant-Landing-PageN</em></div>
+              <div class="shot__img"><img src="assets/projects/restaurant.jpg" alt="TasteFlow restaurant landing page" width="1280" height="720" loading="lazy"></div>
             </a>
-            <div class="project__body">
-              <div class="project__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 7v10M3 9v6M18 7v10M21 9v6M6 12h12"/></svg></div>
+            <div class="pcard__body">
+              <p class="pcard__kind">HTML · CSS</p>
+              <h3>Restaurant Landing Page</h3>
+              <p>Responsive landing page with menu, customer reviews and table booking sections, and easy navigation on mobile, tablet and desktop.</p>
+              <ul class="tags"><li>HTML</li><li>CSS</li><li>Responsive</li></ul>
+              <div class="project__links"><a class="link-btn" href="https://mirudhulamaruthanayagam27.github.io/Restaurant-Landing-PageN/" target="_blank" rel="noopener">Live demo <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a class="link-btn link-btn--ghost" href="https://github.com/MirudhulaMaruthanayagam27/Restaurant-Landing-PageN" target="_blank" rel="noopener">Source code <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg></a></div>
+            </div>
+          </article>
+          <article class="pcard">
+            <a class="shot" href="https://mirudhulamaruthanayagam27.github.io/" target="_blank" rel="noopener" tabindex="-1">
+              <div class="shot__bar" aria-hidden="true"><span></span><span></span><span></span><em>mirudhulamaruthanayagam27.github.io</em></div>
+              <div class="shot__img"><img src="assets/projects/portfolio.jpg" alt="This portfolio website" width="1280" height="720" loading="lazy"></div>
+            </a>
+            <div class="pcard__body">
+              <p class="pcard__kind">HTML · CSS · JavaScript</p>
+              <h3>Personal Portfolio Website</h3>
+              <p>This site: a clean, well-structured portfolio that presents my profile, skills and projects with a clear visual hierarchy.</p>
+              <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <div class="project__links"><a class="link-btn" href="https://mirudhulamaruthanayagam27.github.io/" target="_blank" rel="noopener">Live demo <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a><a class="link-btn link-btn--ghost" href="https://github.com/MirudhulaMaruthanayagam27/mirudhulamaruthanayagam27.github.io" target="_blank" rel="noopener">Source code <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg></a></div>
+            </div>
+          </article>
+          <article class="pcard">
+            <a class="shot" href="https://www.figma.com/proto/iJ0lShyvu5bxvKwN6Uwsei/IRONFIT_Landing?node-id=3-9&amp;starting-point-node-id=3%3A9&amp;t=BkJesyUYmIx0oIk6-1" target="_blank" rel="noopener" tabindex="-1">
+              <div class="shot__bar" aria-hidden="true"><span></span><span></span><span></span><em>figma.com/proto/IRONFIT_Landing</em></div>
+              <div class="shot__img"><img src="assets/projects/ironfit.jpg" alt="IRONFIT gym landing page design in Figma" width="1280" height="720" loading="lazy"></div>
+            </a>
+            <div class="pcard__body">
+              <p class="pcard__kind">Figma · UI Design</p>
               <h3>IRONFIT Gym Landing Page</h3>
               <p>A landing page design for a fitness brand: a bold dark hero with an illustrated "Join Now" call to action, program cards for Strength Training, HIIT and Yoga, and a three-tier pricing section that highlights the best-value plan.</p>
               <ul class="tags"><li>Figma</li><li>UI Design</li><li>Landing Page</li><li>Prototype</li></ul>
