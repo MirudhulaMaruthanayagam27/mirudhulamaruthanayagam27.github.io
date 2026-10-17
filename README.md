@@ -69,7 +69,7 @@ Every project card has **Live demo** and **Source code** buttons. A button whose
 | Project | Live demo | Source code |
 |---|---|---|
 | Job Application Tracker (featured) | ✅ [live](https://mirudhulamaruthanayagam27.github.io/job-tracker/) | ✅ [repository](https://github.com/MirudhulaMaruthanayagam27/job-tracker) |
-| E-Commerce Web Application | ⏳ your link | ⏳ your repository link |
+| ShopEase: E-Commerce Store (Angular) | ⏳ `https://mirudhulamaruthanayagam27.github.io/shop-ease/` | ⏳ `https://github.com/MirudhulaMaruthanayagam27/shop-ease` |
 | Restaurant Landing Page | ✅ [live](https://mirudhulamaruthanayagam27.github.io/Restaurant-Landing-PageN/) | ✅ [repository](https://github.com/MirudhulaMaruthanayagam27/Restaurant-Landing-PageN) |
 | Personal Portfolio Website | ✅ [live](https://mirudhulamaruthanayagam27.github.io/) | ✅ [repository](https://github.com/MirudhulaMaruthanayagam27/mirudhulamaruthanayagam27.github.io) |
 | IRONFIT Gym Landing Page (Figma) | ✅ [View prototype](https://www.figma.com/proto/iJ0lShyvu5bxvKwN6Uwsei/IRONFIT_Landing?node-id=3-9&starting-point-node-id=3%3A9&t=BkJesyUYmIx0oIk6-1) | — |
