@@ -1,5 +1,7 @@
 # Mirudhula M — Portfolio
 
+**🌐 Live site: https://mirudhulamaruthanayagam27.github.io/**
+
 Personal portfolio of a **Front-End Developer** (HTML, CSS, JavaScript, Angular), built with plain **HTML, CSS and JavaScript** (no frameworks, no build step).
 
 It has these sections: Hero (typing effect and photo), Stats (numbers count up), About, Skills, Projects, Journey (timeline and certifications) and Contact (a form that emails you).
@@ -33,25 +35,13 @@ Double-click `index.html`. Everything works except the contact form, which needs
 
 ## Publish on GitHub Pages
 
-1. On github.com, click **+** → **New repository**.
-2. Name the repository exactly **`mirudhulamaruthanayagam27.github.io`**. This name is special: the site opens at the clean main address **https://mirudhulamaruthanayagam27.github.io/**. Any other name, e.g. `portfolio`, gives `…github.io/portfolio/`.
-3. Choose **Public** and click **Create repository**.
-4. Click **"uploading an existing file"** and drag in everything inside this folder (`index.html`, `style.css`, `script.js`, `README.md`, `assets`). Then click **Commit changes**.
+The code is in the repository [mirudhulamaruthanayagam27.github.io](https://github.com/MirudhulaMaruthanayagam27/mirudhulamaruthanayagam27.github.io) on the branch **`feat/portfolio`**. Because the repository has this special name, the site opens at the main address.
 
-   Or with git:
-   ```powershell
-   cd D:\Angular-Fullstack-Portfolio\Portfolio
-   git init
-   git add .
-   git commit -m "Portfolio website"
-   git branch -M main
-   git remote add origin https://github.com/MirudhulaMaruthanayagam27/mirudhulamaruthanayagam27.github.io.git
-   git push -u origin main
-   ```
-5. In the repository, go to **Settings → Pages → Build and deployment**. Choose **Deploy from a branch**, then **main** and **/ (root)**, and click **Save**.
-6. Wait 1–2 minutes, then refresh. The link appears at the top of the Pages screen.
+1. In the repository, go to **Settings → Pages → Build and deployment**.
+2. Choose **Deploy from a branch**, then branch **`feat/portfolio`** (or `main` after you merge), folder **/ (root)**, and click **Save**.
+3. Wait 1–2 minutes. The site is live at **https://mirudhulamaruthanayagam27.github.io/**
 
-To update the site later, edit a file and commit or push again. GitHub republishes it automatically.
+To update the site later, commit and push to the same branch. GitHub republishes it automatically.
 
 ## Contact form: how messages reach you
 
@@ -78,14 +68,14 @@ Every project card has **Live demo** and **Source code** buttons. A button whose
 
 | Project | Live demo | Source code |
 |---|---|---|
-| Job Application Tracker (featured) | ⏳ `https://mirudhulamaruthanayagam27.github.io/job-tracker/` | ⏳ `https://github.com/MirudhulaMaruthanayagam27/job-tracker` |
+| Job Application Tracker (featured) | ✅ [live](https://mirudhulamaruthanayagam27.github.io/job-tracker/) | ✅ [repository](https://github.com/MirudhulaMaruthanayagam27/job-tracker) |
 | E-Commerce Web Application | ⏳ your link | ⏳ your repository link |
 | Restaurant Landing Page | ✅ [live](https://mirudhulamaruthanayagam27.github.io/Restaurant-Landing-PageN/) | ✅ [repository](https://github.com/MirudhulaMaruthanayagam27/Restaurant-Landing-PageN) |
-| Personal Portfolio Website | ⏳ `https://mirudhulamaruthanayagam27.github.io/` | ⏳ `https://github.com/MirudhulaMaruthanayagam27/mirudhulamaruthanayagam27.github.io` |
+| Personal Portfolio Website | ✅ [live](https://mirudhulamaruthanayagam27.github.io/) | ✅ [repository](https://github.com/MirudhulaMaruthanayagam27/mirudhulamaruthanayagam27.github.io) |
 | Mobile App UI Design | — | ⏳ "View design": your Figma prototype link |
 | IRONFIT Gym Landing Page (Figma) | ✅ [View prototype](https://www.figma.com/proto/iJ0lShyvu5bxvKwN6Uwsei/IRONFIT_Landing?node-id=3-9&starting-point-node-id=3%3A9&t=BkJesyUYmIx0oIk6-1) | — |
 
-⏳ = placeholder for now (the job-tracker and portfolio URLs become real once those repositories are published) · ✅ = live.
+✅ = link added · ⏳ = placeholder for now.
 
 ## Other placeholders
 
