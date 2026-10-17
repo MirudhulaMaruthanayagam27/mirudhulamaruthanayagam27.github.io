@@ -72,7 +72,6 @@ Every project card has **Live demo** and **Source code** buttons. A button whose
 | E-Commerce Web Application | ⏳ your link | ⏳ your repository link |
 | Restaurant Landing Page | ✅ [live](https://mirudhulamaruthanayagam27.github.io/Restaurant-Landing-PageN/) | ✅ [repository](https://github.com/MirudhulaMaruthanayagam27/Restaurant-Landing-PageN) |
 | Personal Portfolio Website | ✅ [live](https://mirudhulamaruthanayagam27.github.io/) | ✅ [repository](https://github.com/MirudhulaMaruthanayagam27/mirudhulamaruthanayagam27.github.io) |
-| Mobile App UI Design | — | ⏳ "View design": your Figma prototype link |
 | IRONFIT Gym Landing Page (Figma) | ✅ [View prototype](https://www.figma.com/proto/iJ0lShyvu5bxvKwN6Uwsei/IRONFIT_Landing?node-id=3-9&starting-point-node-id=3%3A9&t=BkJesyUYmIx0oIk6-1) | — |
 
 ✅ = link added · ⏳ = placeholder for now.

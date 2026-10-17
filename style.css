@@ -281,6 +281,9 @@ svg .fill { fill: currentColor; stroke: none; }
 .link-btn.is-pending:hover { background: var(--ink); border-color: var(--ink); }
 .link-btn--ghost.is-pending:hover { background: transparent; color: var(--ink); }
 @media (min-width: 640px) { .projects { grid-template-columns: repeat(2, 1fr); } }
+/* Three small cards: one row of three on desktop; on tablets the third spans the row. */
+@media (min-width: 640px) and (max-width: 999px) { .project:nth-child(3):not(.project--wide) { grid-column: 1 / -1; } }
+@media (min-width: 1000px) { .projects { grid-template-columns: repeat(3, 1fr); } }
 /* Wide card with a design preview: fills a full row. */
 .project--wide { padding: 0; overflow: hidden; }
 .project--wide .project__body { padding: 26px; display: flex; flex-direction: column; flex: 1; }
